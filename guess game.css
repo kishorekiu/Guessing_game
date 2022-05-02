@@ -1,0 +1,57 @@
+* {
+  color: "#868e96";
+}
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: "#868e96";
+}
+.Container {
+  height: 100vh;
+  margin: 0 260px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.textCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.Flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.Border {
+  border: 4px solid #000;
+  width: 150px;
+  height: 75px;
+  padding: 0 16px;
+}
+.text {
+  margin-top: 20px;
+}
+.secretNumber {
+  text-align: center;
+  font-size: 46px;
+  line-height: 65px;
+}
+.Flex-right {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.number {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 40px;
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
